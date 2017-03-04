@@ -1,0 +1,385 @@
+namespace = winter_reb
+#####################
+#events of the winter rebellion
+################
+
+character_event = { #Jadis duels Aslan during the battle of beruna
+	id = winter_reb.1
+	desc = "EVTDESCwinter_reb1"
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+	
+	trigger = {
+		character = 1900
+		in_battle = yes
+		in_command = yes
+		k_aslans_country = {
+			holder_scope={
+			in_battle = yes
+			in_command = yes
+			}
+		}
+	}
+	option = {
+		name = "EVTOPTAwinter_reb.1"
+		hidden_tolltip = {
+		random_list = {
+			39 = { 
+				any_independent_ruler = {
+					limit = {
+						ai = no
+						NOT = { character = ROOT }
+						}
+					narrative_event = { id = winter_reb.2 } # Notify players of this 
+				}
+				random_character = {
+					limit = { 
+						character = 1900
+						is_alive = yes
+					}
+				}
+				any_war = {
+					limit = { 
+						attacker = { character = 1014 }
+					}
+					end_war = success
+				}
+				PREV={death = { death_reason = death_battle killer = 1907 }}
+			}
+			41 = { 
+				any_independent_ruler = {
+					limit = {
+						ai = no
+						NOT = { character = ROOT }
+						}
+					narrative_event = { id = winter_reb.3 } # Notify players of this 
+				}
+				#any_war = {
+				#	limit = { 
+				#		attacker = { character = 1014 }
+				#	}
+				#	end_war = reverse_demand
+				#}
+				k_aslans_country = {
+					holder_scope={death = { death_reason = death_battle killer = 1900 }}
+				}
+	
+			}
+			20={#one or the other flees, moddled by the battle results}
+		}
+		}
+	}
+}
+narrative_event = { #Jadis duels Aslan during the battle of beruna and wins
+	id = winter_reb.2
+	desc = "EVTDESCwinter_reb2"
+	title = "EVTTITLEwinter_reb2"
+
+	is_triggered_only=yes
+
+	option = {
+		name = "EVTOPTAwinter_reb.2"
+		trigger = {NOT = {religion = aslan}}
+	}
+	option = {
+		name = "EVTOPTBwinter_reb.2"
+		trigger = {religion = aslan}
+	}
+}
+narrative_event = { #Jadis duels Aslan during the battle of beruna and loses
+	id = winter_reb.3
+	desc = "EVTDESC_winter_reb3"
+	title = "EVTTITLE_winter_reb3"
+
+	is_triggered_only=yes
+
+	trigger = {}
+	
+	option = {
+		name = "EVTOPTAwinter_reb.3"
+	}
+}
+character_event = { #A horse and his boy
+	id = winter_reb.5
+	desc = "EVTDESCwinter_reb5"
+
+	mean_time_to_happen = {
+		months = 11
+	}
+	
+	trigger = {
+		AND ={
+		character = 2101
+		year = 1007
+		}
+	}
+	option = {
+		name = EVTOPTAwinter_reb.5
+		hidden_tooltip = {
+		set_global_flag = "a_horse_and_its_boy_1"
+		}
+		
+	}
+	option = {
+		name = EVTOPTBwinter_reb.5
+		
+		
+	}
+}
+character_event = { #A horse and his boy Rabadash Events
+	id = winter_reb.7
+	desc = "EVTDESCwinter_reb7"
+
+	mean_time_to_happen = {
+		months = 6
+	}
+	
+	trigger = {
+		year = 1007
+		character = 40108
+		is_alive = yes
+		NOT={is_married}
+		random_character = {
+			limit = { 
+				character = 1015
+				is_alive = yes
+				NOT={is_married}
+				can_marry = yes
+			}
+		}
+	}
+	option = { #ask her
+		name = EVTOPTAwinter_reb.7
+		hidden_tooltip = {
+		random_character = {
+			limit = { 
+				character = 1015
+				is_alive = yes
+				NOT={is_married}
+			}
+		character_event = { id = winter_reb.8 }
+		}
+		}
+		
+	}#don't risk it
+	option = {
+		name = EVTOPTBwinter_reb.7
+		prestige = -20
+		
+	}
+}
+character_event = { #Susan is propersisioned
+	id = winter_reb.8
+	desc = "EVTDESCwinter_reb8"
+
+	is_triggered_only=yes
+
+	trigger = {}
+	
+	option = {#no
+		name = EVTOPTAwinter_reb.8
+		prestige = 10
+		add_trait = chaste
+		
+	}
+	option = { #yes i will
+		name = EVTOPTBwinter_reb.8
+		hidden_tooltip = {
+			random_character = {
+				limit = { 
+					character = 40108
+					is_alive = yes
+					NOT={is_married}
+				}
+			add_spouse = 1015
+			prestige = 250
+			}
+		}	
+	} 
+}
+character_event = { #The White Stag
+	id = winter_reb.10
+	desc = "EVTDESCwinter_reb10"
+
+	mean_time_to_happen = {
+		months = 11
+	}
+	
+	trigger = {
+		AND ={
+		character = 1014
+		year = 1015
+		has_landed_title = e_narnia
+		}
+	}
+	option = {
+		name = EVTOPTAwinter_reb.10
+		hidden_tooltip = {
+		narrative_event = { id = winter_reb.11 }
+		}
+		prestige = 50
+	}
+	option = {
+		name = EVTOPTBwinter_reb.10
+		
+		prestige = -25
+	}
+}
+narrative_event = { #The White Stag part two
+	id = winter_reb.11
+	desc = "EVTDESCwinter_reb11"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAwinter_reb.11
+		hidden_tooltip = {
+		narrative_event = { id = winter_reb.12 }
+		}
+		prestige = 200
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 10
+				OR = {
+					trait = brave
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					trait = craven
+					trait = proud
+					trait = ambitious
+				}
+			}
+		}
+	}
+	option = {
+		name = EVTOPTBwinter_reb.11
+		
+		prestige = -75
+		ai_chance = {
+			factor = 5
+			modifier = {
+				factor = 10
+				OR = {
+					trait = craven
+					trait = proud
+					trait = ambitious
+				}
+			}
+		}
+	}
+}
+narrative_event = { #The White Stag part three
+	id = winter_reb.12
+	desc = "EVTDESCwinter_reb12"
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = EVTOPTAwinter_reb.12
+		hidden_tooltip = {
+
+		any_independent_ruler = {
+				limit = {
+					ai = no
+					NOT = { character = ROOT }
+				}
+				narrative_event = { id = winter_reb.13 } # Notify players of this 
+			}
+		}
+		any_independent_ruler = {
+				limit = {
+					ai = no
+					character = 2100
+				}
+				any_child = {
+					limit = {
+						ai = no
+						character = 2102
+						is_ruler = false
+					}
+					narrative_event = { id = winter_reb.14 } # Offer Corin the Title
+				}
+			}
+		}
+		prestige = 500
+		random_character = {
+			limit = { 
+				character = 1017
+				is_alive = yes
+				NOT={is_married}
+			}
+			death = { death_reason = death_missing }
+		}
+		random_character = {
+			limit = { 
+				character = 1016
+				is_alive = yes
+			}
+			death = { death_reason = death_missing }
+		}
+		random_character = {
+			limit = { 
+				character = 1015
+				is_alive = yes
+				NOT={is_married}
+			}
+			death = { death_reason = death_missing }
+		}
+		random_character = {
+			limit = { 
+				character = 1014
+				is_alive = yes
+			}
+			death = { death_reason = death_missing }
+		}
+	}
+}
+narrative_event = { #world is notified of the pevensies disapearance
+	id = winter_reb.13
+	desc = "EVTDESC_winter_reb13"
+	title = "EVTTITLE_winter_reb13"
+
+	is_triggered_only=yes
+
+	trigger = {}
+	
+	option = {
+		name = EVTOPTAwinter_reb.13
+	}
+}
+character_event = { #The White Stag
+	id = winter_reb.14
+	desc = "EVTDESCwinter_reb14"
+
+
+	is_triggered_only=yes
+
+	trigger = {}
+	
+	option = { #yes
+		name = EVTOPTAwinter_reb.14
+		hidden_tooltip = {
+		narrative_event = { id = winter_reb.11 }
+		}
+		random_character = {
+			limit = { 
+				character = 1014
+				is_alive = yes
+			}
+			abdicate_to = ROOT
+		}
+		prestige = 500
+	}
+	option = { #no i don't want a title
+		name = EVTOPTBwinter_reb.14
+		
+		prestige = -25
+		add_trait = content
+	}
+}

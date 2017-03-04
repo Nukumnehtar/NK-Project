@@ -1,0 +1,59 @@
+1.1.1={
+	holder = 0
+	law = crown_authority_2
+	law = succ_primogeniture
+}
+302.4.8={
+	holder=1012
+	law = crown_authority_3
+	law = succ_primogeniture
+}
+325.4.8={
+	holder=1013
+}
+900.1.7={
+	holder=1900
+	law = crown_authority_3
+	law = succ_primogeniture
+	effect = {
+		#make the witch's castle the capital
+		b_dwarfsdale = {
+			ROOT = {
+				holder_scope = {
+					if = {
+						limit = { has_landed_title = PREVPREV }
+						capital = PREVPREV
+					}
+				}
+			}	
+		}	
+	}
+}
+1000.2.5={
+	holder=1014
+	effect = {
+		#make cair_paravel the capital
+		b_cair_paravel = {
+			ROOT = {
+				holder_scope = {
+					if = {
+						limit = { has_landed_title = PREVPREV }
+						capital = PREVPREV
+					}
+				}
+			}	
+		}	
+	}
+}
+1015.2.9={
+	holder=2102
+}
+1046.9.29={
+	holder=0
+}
+2303.7.12={
+	holder=30012
+}
+2356.7.12={
+	holder=30014
+}

@@ -1,0 +1,33 @@
+#Narnia
+technology = {
+	titles = {
+		d_tashbaan
+		d_spur_of_calore
+		d_azem_balda
+		d_ilkeen
+		d_eusabaan
+		d_zalindreh
+		d_azimbalda
+		d_teeban
+		d_slavers_bay
+		d_agorbah
+		d_tashdreh
+		d_mezreel
+		d_zelisa
+		d_mezealisa
+		d_lower_kollash
+		d_upper_kollash
+		d_soutash
+		c_xesare
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}	
+	2555 = {
+		military = 3.5
+		economy = 3.5
+		culture = 3.5
+	}
+}

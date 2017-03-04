@@ -1,0 +1,81 @@
+# Geographical regions
+# Regions can be declared with one or more of the following fields:
+#	duchies = { }, takes duchy title names declared in landed_titles.txt
+#	counties = { }, takes county title names declared in landed_titles.txt
+#	provinces = { }, takes province id numbers declared in /history/provinces
+#	regions = { }, a region can also include other regions, however the subregions needs to be declared before the parent region. 
+#		E.g. If the region world_europe contains the region world_europe_west then world_europe_west needs to be declared as a region before (i.e. higher up in this file) world_europe.
+
+###########################################################################
+# World Regions
+#	These groups are mutually exclusive on the same tier
+###########################################################################
+
+region_narnia_proper = {
+	duchies = {
+		d_cair_paravel d_ettinsgard d_rushwood d_eponadium d_pania d_lake_telmar_towns d_aslans_how d_faunwald 
+		d_dancing_lawn d_beruna d_galma d_the_marsh d_western_wood d_sagittaria d_gryphon_vale d_limnadeon 
+		d_lantern_wastes d_minotauria d_narnian_dwarven_states d_northedge d_deepdelve d_lantern_woods
+	}
+}
+region_archenland = {
+	duchies = { 
+		d_anvard d_oreadia d_lyredale d_dellourea d_willoughby d_stormness d_gelfria d_cair_oriel d_archenbay
+	}
+}
+region_outer_narnian_islands = {
+	duchies = { 
+		d_terebinthia d_lone_islands
+	}
+}
+region_greater_archenland = {
+	duchies = {
+		d_south_archen d_arched_bays d_ankiun
+	}
+	regions = {region_archenland}
+}
+world_imperial_narnia = {
+	regions = {
+	region_archenland region_narnia_proper region_outer_narnian_islands
+	}
+}
+region_telmar = {
+	duchies = {
+		d_telmarine_heartlands d_darvar d_salica d_lake_telmar_towns d_upper_telmarne d_lower_telmarne d_barsalain
+		d_oreaisan d_telareais d_iroseias d_falreais d_uiolais d_telarus d_aragar d_telsepail
+	}
+}
+region_koralis = {
+	duchies = {
+		d_liolid d_koralis d_reunia
+	}
+}
+region_koraly = {
+	duchies = {
+		d_liolid d_koralis d_irenisa d_telhonor d_karrak d_aragoria d_telnarvarra d_veitalid d_reliusia d_koraslis
+		d_koraly d_tyiros d_leraas d_werasi d_reteopa
+	}
+}
+region_sesh = {
+	duchies = {
+		d_east_dereshia d_west_dereshia d_telkarisa d_lerishai d_jermaneia d_ililid d_quandilas d_daiashan d_daiasesh
+		d_baradisesh d_foreshia d_karresha d_au_shesought d_nerilesh d_menaira d_shesh d_lupara d_telmansa
+		d_kerria d_iureashesh d_venarisa d_oldershesh d_kernais_coast
+	}
+}
+region_riunea = {
+	duchies = {
+		d_koralindia
+		d_koraleon
+		d_riavul
+		d_raisurval
+		d_senatelios
+		d_renadiuma
+		d_reunia
+	}
+}
+world_telmarine = {
+	regions = {
+	region_telmar region_koralis region_koraly region_sesh region_riunea
+	}
+}

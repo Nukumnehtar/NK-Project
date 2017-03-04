@@ -1,0 +1,212 @@
+1=
+{
+	name="of Narnia"
+	culture="narnian"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 0
+			emblem = 0
+			color = 3
+			color = 11
+			color = 11
+		}
+	}
+	used_for_random=no
+}
+2=
+{
+	name="of Charn"
+	culture="charn"
+	religion="white_witch"
+	used_for_random=no
+}
+3=
+{
+	name="Pevensie"
+	culture="english"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 4
+			texture_internal = 0
+			emblem = 0
+			color = 7
+			color = 4
+			color = 4
+		}
+	}
+	used_for_random=no
+}
+4=
+{
+	name="de Telmar"
+	culture="telmarine"
+	coat_of_arms = {
+		template = 0
+		layer = {
+			texture = 2
+			texture_internal = 8
+			emblem = 0
+			color = 5
+			color = 8
+			color = 8
+		}
+	}
+	used_for_random=no
+}
+5=
+{
+	name="Narnia"
+	culture="narnian"
+	used_for_random=yes
+}
+6=
+{
+	name="de Rushford"
+	culture="telmarine"
+	used_for_random=no
+}
+7=
+{
+	name="Tashkan"
+	culture="calormen"
+	used_for_random=no
+}
+8=
+{
+	name="Bullhorn"
+	culture="minotaur"
+	used_for_random=no
+}
+9=
+{
+	name="Ettinsrock"
+	culture="ettins"
+}
+10=
+{
+	name="Harfang"
+	culture="harfang_giant"
+}
+11={
+	name="Ettinsenarm"
+	culture="ettins"
+}
+12={
+	name="Skygazer"
+	culture="centuar"
+}
+13={
+	name="Grum"
+	culture="lone_islander"
+}
+14={
+	name="Telgalma"
+	culture="telmarine"
+}
+15={
+	name="Ava"
+	culture="lone_islander"
+}
+16={
+	name="Deliur"
+	culture="lone_islander"
+}
+17={
+	name="Juelis"
+	culture="lone_islander"
+}
+18={
+	name="Tuelaio"
+	culture="lone_islander"
+}
+20={
+	name="Terebinth"
+	culture="terebinthian"
+}
+31={
+	name="Ironaxe"
+	culture_group="dwarf"
+}
+32={
+	name="Coalhammer"
+	culture_group="dwarf"
+}
+33={
+	name="Steelpick"
+	culture_group="dwarf"
+}
+34={
+	name="Xexsares"
+	culture_group="calormen"
+}
+35={
+	name="Kollasha"
+	culture_group="calormen"
+}
+36={
+	name="Dagash"
+	culture_group="calormen"
+}
+37={
+	name="Kaloresa"
+	culture_group="calormen"
+}
+38={
+	name="Uyisla"
+	culture_group="calormen"
+}
+39={
+	name="Weszash"
+	culture_group="calormen"
+}
+40={
+	name="Azim"
+	culture_group="calormen"
+}
+41={
+	name="Yuilizash"
+	culture_group="calormen"
+}
+42={
+	name="Ilyuiliza"
+	culture_group="calormen"
+}
+43={
+	name="Salzlia"
+	culture_group="calormen"
+}
+44={
+	name="Alash"
+	culture_group="calormen"
+}
+45={
+	name="Jalish"
+	culture_group="calormen"
+}
+46={
+	name="Zalin"
+	culture_group="calormen"
+}
+47={
+	name="Telzim"
+	culture_group="calormen"
+}
+50={
+	name="De Koraly"
+	culture_group="koramarine"
+}
+51={
+	name="Desha"
+	culture_group="teldesteira"
+}
+52={
+	name="Shesh"
+	culture_group="teldesteira"
+}
+53={
+	name="Riuneal"
+	culture_group="koramarine"
+}

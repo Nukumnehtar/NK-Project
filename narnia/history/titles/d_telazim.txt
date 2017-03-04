@@ -1,0 +1,12 @@
+902.1.1={
+	set_tribute_suzerain = { who = e_calormen percentage = 0.25 }
+}
+986.5.14={
+	holder = 41000
+}
+1021.2.25={
+	clear_tribute_suzerain = e_calormen
+}
+1080.12.4 = {
+	liege = e_calormen
+}

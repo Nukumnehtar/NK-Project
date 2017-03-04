@@ -1,0 +1,312 @@
+#60000-70000
+60000 = {
+	name="Tumnus" #everyone knows who this is
+	#dynasty=1
+	historical=yes
+	religion="aslan"
+	culture="faun"
+	add_trait="faun"
+	add_trait="kind"
+	add_trait="craven"
+	add_trait="honest"
+	add_trait="honest"
+	learning=15
+	diplomacy=19
+	969.4.21={
+		birth="969.4.21"
+	}
+	999.12.19={
+	effect={add_friend=1017}
+	employer=1014
+	}
+	1036.4.9={
+		death="1036.4.9"
+	}
+}
+60001 = {
+	name="mr. Beaver"
+	culture="narnian"
+	add_trait="beaver"
+}
+60002 = {
+	name="ms. Beaver"
+	female=yes
+	culture="narnian"
+	add_trait="beaver"
+}
+60003 = {
+	name="Glenstorm" 
+	dynasty=12
+	religion="aslan"
+	culture="centaur"
+	add_trait="mastermind_theologian"
+	add_trait="kind"
+	add_trait="brave"
+	add_trait="scholar"
+	add_trait="strong"
+	add_trait="zealous"
+	add_trait="cavalry_leader"
+	add_trait="proud"
+	martial=12
+	2258.4.4={
+		birth="2258.4.4"
+	}
+	2279.9.14={
+		add_spouse=60004
+	}
+	2342.8.22={
+		death="2342.8.22"
+	}
+}
+60004 = {
+	name="Windmane" 
+	female=yes
+	religion="aslan"
+	culture="centaur"
+	add_trait="kind"
+	add_trait="brave"
+	add_trait="strong"
+	add_trait="cavalry_leader"
+	2261.5.11={
+		birth="2261.5.11"
+	}
+	2345.7.17={
+		death="2345.7.17"
+	}
+}
+60005 = {
+	name="Ironhoof"
+	dynasty=12
+	religion="aslan"
+	culture="centaur"
+	add_trait="strong"
+	father=60003
+	mother=60004
+	2281.4.21={
+		birth="2281.4.21"
+	}
+	2351.4.9={
+		death="1036.4.9"
+	}
+}
+60006 = {
+	name="Suncloud"
+	dynasty=12
+	religion="aslan"
+	culture="centaur"
+	father=60003
+	mother=60004
+	2282.4.21={
+		birth="2282.4.21"
+	}
+	2364.4.9={
+		death="1036.4.9"
+	}
+}
+60007 = {
+	name="Rainstone"
+	dynasty=12
+	religion="aslan"
+	culture="centaur"
+	father=60003
+	mother=60004
+	add_trait="brave"
+	add_trait="strong"
+	add_trait="cavalry_leader"
+	2284.4.21={
+		birth="2284.4.21"
+	}
+	2302.4.9={
+		death={
+			death_reason=death_battle
+		}
+	}
+}
+60008 = {
+	name = "Oreius"
+	dynasty = 12
+	religion = "aslan"
+	culture = "centaur"
+	#father = 60003
+	#mother = 60004
+	martial = 13
+	add_trait = "brave"
+	add_trait = "strong"
+	add_trait = "proud"
+	add_trait = "zealous"
+	954.7.18 = {
+		birth = "954.7.18"
+	}
+	1022.8.17 = {
+		death = "1022.8.17"
+	}
+}
+60009 = {
+	name = "Oreius"
+	dynasty = 12
+	religion = "aslan"
+	culture = "centaur"
+	father = 60008
+	#mother = 60004
+	stewardship = 10
+	martial = 11
+	add_trait = "proud"
+	998.1.12 = {
+		birth = "998.1.12"
+	}
+	1082.4.27 = {
+		death="1082.4.27"
+	}
+}
+60010 = {
+	name = "Stonemane"
+	dynasty = 12
+	religion = "aslan"
+	culture = "centaur"
+	father = 60009
+	#mother=60004
+	#add_trait="brave"
+	1022.2.27 = {
+		birth = "1022.2.27"
+	}
+	1102.8.1 = {
+		death = "1082.8.1"
+	}
+}
+60120 = {
+	name="Stonehelm"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	dna="rubrsknmbip"
+	martial=13
+	#father=60009
+	#mother=60004
+	add_trait="dwarf_culture"
+	963.8.30={
+		birth="963.8.30"
+	}
+	1204.9.12={
+		death="1204.9.12"
+	}
+}
+60121 = {
+	name="Ironfist"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60120
+	#mother=60004
+	add_trait="dwarf_culture"
+	1124.2.14={
+		birth="1124.2.14"
+	}
+	1423.10.26={
+		death="1423.10.26"
+	}
+}
+60122 = {
+	name="Ironhammer"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60121
+	#mother=60004
+	add_trait="dwarf_culture"
+	1241.4.14={
+		birth="1241.4.14"
+	}
+	1572.5.17={
+		death="1572.5.17"
+	}
+}
+60123 = {
+	name="Coalaxe"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60122
+	#mother=60004
+	add_trait="dwarf_culture"
+	1468.9.23={
+		birth="1468.9.23"
+	}
+	1682.8.25={
+		death="1682.8.25"
+	}
+}
+60124 = {
+	name="Coalaxe"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60123
+	#mother=60004
+	add_trait="dwarf_culture"
+	1594.4.4={
+		birth="1594.4.4"
+	}
+	1816.11.9={
+		death="1816.11.9"
+	}
+}
+60125 = {
+	name="Ironhammer"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60124
+	#mother=60004
+	add_trait="dwarf_culture"
+	1756.6.27={
+		birth="1756.6.27"
+	}
+	1939.4.18={
+		death="1939.4.18"
+	}
+}
+60126 = {
+	name="Goldfist"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60125
+	#mother=60004
+	add_trait="dwarf_culture"
+	1901.2.13={
+		birth="1901.2.13"
+	}
+	2194.8.24={
+		death="2194.8.24"
+	}
+}
+60127 = {
+	name="Ironaxe"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60126
+	#mother=60004
+	add_trait="dwarf_culture"
+	2052.6.21={
+		birth="2052.6.21"
+	}
+	2328.9.3={
+		death="2328.9.3"
+	}
+}
+60128 = {
+	name="Stonehelm"
+	dynasty=32
+	religion="aslan"
+	culture="red_dwarf"
+	father=60127
+	#mother=60004
+	add_trait="dwarf_culture"
+	2201.9.9={
+		birth="2201.9.9"
+	}
+	2436.4.24={
+		death="2436.4.24"
+	}
+}

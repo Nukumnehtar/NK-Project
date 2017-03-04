@@ -1,0 +1,14 @@
+1.1.1={
+	holder = 0
+	law = crown_authority_3
+	law = succ_primogeniture
+}
+965.9.5={
+	holder = 30502
+}
+981.2.1={
+	holder = 30501
+}
+993.5.13={
+	holder = 30500
+}

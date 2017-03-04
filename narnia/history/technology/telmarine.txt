@@ -1,0 +1,87 @@
+#Telmar
+technology = {
+	titles = {	
+		d_salica
+		d_upper_telmarne
+		d_lower_telmarne
+		d_darvar
+		d_barsalain
+		d_oreaisan
+		d_telareais
+		d_iroseias
+		d_falreais
+		d_uiolais
+		d_telarus
+		d_aragar
+		d_telsepail
+		d_werasi
+		d_reteopa
+		d_koralis
+		d_liolid
+		d_reunia
+		d_foreshia
+		d_koralindia
+		d_koraleon
+		d_riavul
+		d_raisurval
+		d_senatelios
+		d_renadiuma
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	1000 = {
+		military = 0.8
+		economy = 0.9
+		culture = 0.9
+	}
+	2555 = {
+		military = 2.3
+		economy = 2.3
+		culture = 2.3
+	}
+}
+technology = {
+	titles = {	
+		d_leraas
+		d_tyiros
+		d_telhonor
+		d_reliusia
+		d_veitalid
+		d_irenisa
+		d_koraslis
+		d_karrak
+		d_aragoria
+		d_telnarvarra
+		d_east_dereshia
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2555 = {
+		military = 2.3
+		economy = 2.3
+		culture = 2.3
+	}
+}
+technology = {
+	titles = {
+		d_telmarine_heartlands
+		d_koraly
+		d_riuena
+	}
+	400 = {
+		military = 0.1
+		economy = 0.1
+		culture = 0.1
+	}
+	2555 = {
+		military = 4.0
+		economy = 4.0
+		culture = 4.0
+	}
+}

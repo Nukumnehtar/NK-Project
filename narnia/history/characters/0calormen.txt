@@ -1,0 +1,930 @@
+#40000-45000
+40001 = {
+name="tash"
+	religion="tash"
+	culture="calormen"
+	#dynasty=7
+	add_trait="immortal"
+	1.1.19={
+		birth="1.1.19"
+	}
+	2555.2.20={
+		death="2555.2.20"
+	}
+}
+40002 = {
+name="Aradeeb"
+	religion="tash"
+	culture="calormen"
+	father=40001
+	dynasty=7
+	176.1.2={
+		birth="176.1.2"
+	}
+	224.4.8={
+		death="224.4.8"
+	}
+}
+40003 = {
+name="Aradash"
+	religion="tash"
+	culture="calormen"
+	father=40002
+	dynasty=7
+	204.4.27={
+		birth="204.4.27"
+	}
+	278.7.18={
+		death="278.7.18"
+	}
+}
+40004 = {
+name="Aradeb"
+	religion="tash"
+	culture="calormen"
+	father=40003
+	dynasty=7
+	206.8.12={
+		birth="206.8.12"
+	}
+	264.2.17={
+		death="264.2.17"
+	}
+}
+40005 = {
+name="Tasbalia"
+	religion="tash"
+	culture="calormen"
+	father=40003
+	dynasty=7
+	230.1.20={
+		birth="230.1.20"
+	}
+	301.1.1={
+		death="301.1.1"
+	}
+}
+40006 = {
+name="Aradash"
+	religion="tash"
+	culture="calormen"
+	father=40005
+	dynasty=7
+	257.7.25={
+		birth="257.7.25"
+	}
+	332.2.14={
+		death="332.2.14"
+	}
+}
+40007 = {
+name="Illsombreh"
+	religion="tash"
+	culture="calormen"
+	father=40006
+	dynasty=7
+	282.9.21={
+		birth="282.9.21"
+	}
+	371.4.24={
+		death="371.4.24"
+	}
+}
+40008 = {
+name="Kidrash"
+	religion="tash"
+	culture="calormen"
+	father=40007
+	dynasty=7
+	314.5.2={
+		birth="314.5.2"
+	}
+	382.7.29={
+		death="382.7.29"
+	}
+}
+40009 = {
+name="Kidrash"
+	religion="tash"
+	culture="calormen"
+	father=40008
+	dynasty=7
+	339.3.24={
+		birth="339.3.24"
+	}
+	400.4.4={
+		death="400.4.4"
+	}
+}
+40010 = {
+name="Kidrash"
+	religion="tash"
+	culture="calormen"
+	father=40009
+	dynasty=7
+	360.5.18={
+		birth="360.5.18"
+	}
+	445.11.17={
+		death="445.11.17"
+	}
+}
+40011 = {
+name="Aradash"
+	religion="tash"
+	culture="calormen"
+	father=40010
+	dynasty=7
+	382.1.19={
+		birth="382.1.19"
+	}
+	459.12.10={
+		death="459.12.10"
+	}
+}
+40012 = {
+name="Rorash"
+	religion="tash"
+	culture="calormen"
+	father=40010
+	dynasty=7
+	385.9.21={
+		birth="385.9.21"
+	}
+	495.7.17={
+		death="495.7.177"
+	}
+}
+40013 = {
+name="Ardeeb"
+	religion="tash"
+	culture="calormen"
+	father=40010
+	dynasty=7
+	382.1.19={
+		birth="382.1.19"
+	}
+	475.12.10={
+		death="445.11.17"
+	}
+}
+40014 = {
+name="Illsombreh"
+	religion="tash"
+	culture="calormen"
+	father=40013
+	dynasty=7
+	403.3.30={
+		birth="403.3.30"
+	}
+	463.3.11={
+		death="463.3.11"
+	}
+}
+40015 = {
+name="Illsombreh"
+	religion="tash"
+	culture="calormen"
+	father=40014
+	dynasty=7
+	428.8.14={
+		birth="428.8.14"
+	}
+	491.1.30={
+		death="491.1.30"
+	}
+}
+40016 = {
+name="Aradash"
+	religion="tash"
+	culture="calormen"
+	father=40015
+	dynasty=7
+	452.5.21={
+		birth="452.5.21"
+	}
+	522.2.14={
+		death="522.2.14"
+	}
+}
+40017 = {
+name="Aradash"
+	religion="tash"
+	culture="calormen"
+	father=40016
+	dynasty=7
+	480.4.20={
+		birth="480.4.20"
+	}
+	563.3.3={
+		death="563.3.3"
+	}
+}
+40018 = {
+name="Rabadash"
+	religion="tash"
+	culture="calormen"
+	father=40017
+	dynasty=7
+	503.3.12={
+		birth="503.3.12"
+	}
+	581.1.24={
+		death="581.1.24"
+	}
+}
+40019 = {
+name="Illsomdeeb"
+	religion="tash"
+	culture="calormen"
+	father=40018
+	dynasty=7
+	534.5.27={
+		birth="534.5.27"
+	}
+	605.5.12={
+		death="605.5.12"
+	}
+}
+40020 = {
+name="Illsomdeeb"
+	religion="tash"
+	culture="calormen"
+	father=40019
+	dynasty=7
+	559.9.10={
+		birth="559.9.10"
+	}
+	622.2.3={
+		death="622.2.3"
+	}
+}
+40021 = {
+name="Illsash"
+	religion="tash"
+	culture="calormen"
+	father=40019
+	dynasty=7
+	560.11.27={
+		birth="560.11.27"
+	}
+	631.5.26={
+		death="631.5.26"
+	}
+}
+40022 = {
+name="Aradeeb"
+	religion="tash"
+	culture="calormen"
+	father=40020
+	dynasty=7
+	591.6.10={
+		birth="591.6.10"
+	}
+	673.6.18={
+		death="673.6.18"
+	}
+}
+40023 = {
+name="Aradash"
+	religion="tash"
+	culture="calormen"
+	father=40022
+	dynasty=7
+	622.4.6={
+		birth="622.4.6"
+	}
+	691.9.19={
+		death="691.9.19"
+	}
+}
+40024 = {
+name="Illsombreh"
+	religion="tash"
+	culture="calormen"
+	father=40023
+	dynasty=7
+	658.3.9={
+		birth="658.3.9"
+	}
+	724.4.24={
+		death="724.4.24"
+	}
+}
+40025 = {
+name="Aradash"
+	religion="tash"
+	culture="calormen"
+	father=40024
+	dynasty=7
+	682.8.12={
+		birth="682.8.12"
+	}
+	757.7.27={
+		death="757.7.27"
+	}
+}
+40026 = {
+name="Illsombreh"
+	religion="tash"
+	culture="calormen"
+	father=40025
+	dynasty=7
+	708.7.28={
+		birth="708.7.28"
+	}
+	789.8.19={
+		death="789.8.19"
+	}
+}
+40027 = {
+name="Illsombreh"
+	religion="tash"
+	culture="calormen"
+	father=40026
+	dynasty=7
+	732.6.12={
+		birth="732.6.12"
+	}
+	814.4.12={
+		death="814.4.12"
+	}
+}
+40028 = {
+name="Illsombreh"
+	religion="tash"
+	culture="calormen"
+	father=40027
+	dynasty=7
+	756.5.15={
+		birth="756.5.15"
+	}
+	804.5.12={
+		death="804.5.12"
+	}
+}
+40029 = {
+name="Aradeab"
+	religion="tash"
+	culture="calormen"
+	father=40028
+	dynasty=7
+	781.6.14={
+		birth="781.6.14"
+	}
+	828.8.19={
+		death="828.8.19"
+	}
+}
+40099 = {
+name="Aradash"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40029
+	802.9.1={
+		birth="802.9.1"
+	}
+	853.2.21={
+		death="853.2.21"
+	}
+}
+40100 = {
+name="Ardeeb"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father="40099"
+	843.4.10={
+		birth="843.4.10"
+	}
+	901.11.24={
+		death="901.11.24"
+	}
+}
+40101 = {
+name="Illsombreh"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40100
+	871.7.5={
+		birth="871.7.5"
+	}
+	931.9.20={
+		death="931.9.20"
+	}
+}
+40102 = {
+name="Illsombreh"#main line
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40101
+	892.1.1={
+		birth="892.1.1"
+	}
+	952.8.7={
+		death="952.8.7"
+	}
+}
+40103 = {
+name="Kidrash"#Aravis's line
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40101
+	893.4.7={
+		birth="893.4.7"
+	}
+	961.2.20={
+		death="961.2.20"
+	}
+}
+40104 = {
+name="Rishti"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40103
+	940.7.14={
+		birth="940.7.14"
+	}
+	990.4.3={
+		death="990.4.3"
+	}
+}
+40105 = {
+name="Kidrash"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40104
+	971.1.10={
+		birth="971.1.10"
+	}
+	1034.5.12={
+		death="1034.5.12"
+	}
+}
+40106 = {
+name="Ardeeb"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40102
+	diplomacy=7
+	927.1.19={
+		birth="927.1.19"
+		effect={government = tash_government}
+	}
+	1001.1.2={
+		death="1001.1.2"
+	}
+}
+40107 = {
+name="Arasesh"#The Tisroc
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40106
+	diplomacy=9
+	stewardship=13
+	add_trait="midas_touched"
+	add_trait="diligent"
+	964.6.30={
+		birth="964.6.30"
+	}
+	1030.4.2={
+		death="1030.4.2"
+	}
+}
+40108 = {
+name="Rabadash"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40107
+	add_trait="proud"
+	add_trait="decadent"
+	add_trait="underhanded_rogue"
+	983.3.3={
+		birth="983.3.3"
+	}
+	1052.4.7={
+		death="1052.4.7"
+	}
+}
+40109 = {
+name="Rorash"
+	religion="tash"
+	culture="calormen"
+	dynasty=7
+	father=40105
+	997.6.29={
+		birth="997.6.29"
+	}
+	1002.1.1={
+		death="1002.1.1"
+	}
+}
+40110 = {
+name = "Kidrash"
+	religion = "tash"
+	culture = "calormen"
+	dynasty = 7
+	father = 40105
+	1001.6.29={
+		birth = "1001.6.29"
+	}
+	1054.1.1 = {
+		death = "1054.1.1"
+	}
+}
+40250 = {
+name = "Xesaser"
+	religion = "western_calormen_cults"
+	culture = "calormen"
+	dynasty = 34
+	#father = 40105
+	add_trait = "genius"
+	piety = 250
+	wealth = 180
+	prestige = 230
+	971.7.24 = {
+		birth = "971.7.24"
+	}
+	991.3.14 = {add_spouse =40355}
+	1038.2.9 = {
+		death = "1028.2.9"
+	}
+}
+40298 = {
+name="Setna"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=35
+	#father=40105
+	#mother=40300
+	934.3.10={
+		birth="961.3.10"
+	}
+	979.8.9={
+		death="979.4.9"
+	}
+}
+40299 = {
+name="Kalvash"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=35
+	father=40298
+	#mother=40300
+	961.3.10={
+		birth="961.3.10"
+	}
+	987.4.21={
+		death={death_reason = death_battle}
+	}
+}
+40300 = {
+name = "Kalsae"
+	religion = "western_calormen_cults"
+	culture = "calormen"
+	dynasty = 35
+	female = yes
+	father = 40299
+	martial = 6
+	980.7.24 = {
+		birth = "987.7.24"
+	}
+	1042.5.14 = {
+		death = "1042.5.14"
+	}
+}
+40301 = {
+name="Kalia"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=35
+	#father=40105
+	mother=40300
+	998.1.21={
+		birth="999.1.21"
+	}
+	1071.2.24={
+		death="1071.2.24"
+	}
+}
+40302 = {
+name="Saliou"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=35
+	father=40301
+	#mother=40300
+	1024.11.14={
+		birth="1024.11.14"
+	}
+	1091.5.14={
+		death="1091.5.14"
+	}
+}
+40303 = {
+name="Selina"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=35
+	female=yes
+	father=40298
+	951.6.2={
+		birth="951.6.2"
+	}
+	1024.2.17={
+		death="1024.2.17"
+	}
+}
+40350 = {
+name="Talhval"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=36
+	#father=40105
+	#mother=40300
+	add_trait="midas_touched"
+	stewardship=23
+	950.4.20={
+		birth="950.4.20"
+	}
+	967.1.21={add_spouse=40303}
+	997.7.28={
+		death="997.7.28"
+	}
+}
+40351 = {
+name = "Talhval"
+	religion = "western_calormen_cults"
+	culture = "calormen"
+	dynasty = 36
+	father = 40350
+	mother = 40303
+	968.4.20={
+		birth="968.4.20"
+	}
+	997.7.28 = {
+		add_claim = d_veliustash
+		add_claim = d_dasash
+	}
+	1049.2.21={
+		death="1049.2.21"
+	}
+}
+40352 = {
+name="Scaresa"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=36
+	father=40350
+	mother=40303
+	969.7.14={
+		birth="969.7.14"
+	}
+	997.7.28 = {
+		add_claim = d_veliustash
+		add_claim = d_tahvelia
+	}
+	1038.8.20={
+		death="1038.8.20"
+	}
+}
+40353 = {
+name="Setya"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=36
+	father=40350
+	mother=40303
+	970.11.15={
+		birth="970.11.15"
+	}
+	997.7.28 = {
+		add_claim = d_dasash
+		add_claim = d_tahvelia
+	}
+	1057.1.11={
+		death="1057.1.11"
+	}
+}
+40354 = {
+name="Tyru"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=36
+	father=40350
+	mother=40303
+	972.2.9={
+		birth="972.2.9"
+	}
+	997.7.28 = {
+		add_claim = d_veliustash
+		add_claim = d_tahvelia
+		add_claim = d_dasash
+	}
+	1061.2.24={
+		death="1061.2.24"
+	}
+}
+40355 = {
+name="Kira"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=36
+	female=yes
+	father=40350
+	mother=40303
+	974.5.12={
+		birth="974.5.12"
+	}
+	997.7.28 = {
+		add_weak_claim = d_veliustash
+		add_weak_claim = d_tahvelia
+		add_weak_claim = d_dasash
+	}
+	1060.3.12={
+		death="1060.3.12"
+	}
+}
+40450 = {
+name="Desa"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=37
+	#father=40350
+	#mother=40300
+	982.2.23={
+		birth="982.2.23"
+	}
+	1048.3.26={
+		death="1048.3.26"
+	}
+}
+40500 = {
+name="Dulias"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=38
+	#father=40350
+	#mother=40300
+	martial=8
+	piety = 390
+	978.8.14={
+		birth="978.8.14"
+	}
+	1039.8.12={
+		death="1039.8.12"
+	}
+}
+40550 = {
+name="Swvanash"
+	religion="western_calormen_cults"
+	culture="calormen"
+	dynasty=39
+	#father=40350
+	#mother=40300
+	982.6.7={
+		birth="982.6.7"
+	}
+	1045.5.5={
+		death="1045.5.5"
+	}
+}
+40600 = {
+name="Azime"
+	religion="tash"
+	culture="calormen"
+	dynasty=40
+	#father=40350
+	#mother=40300
+	piety = 420
+	963.5.18={
+		birth="963.5.18"
+	}
+	1028.8.22={
+		death="1028.8.22"
+	}
+}
+40650 = {
+name = "Calva"
+	religion = "southern_calormen_cults"
+	culture = "calormen"
+	dynasty = 41
+	#father = 40350
+	#mother = 40300
+	966.6.16 = {
+		birth = "966.6.16"
+	}
+	1041.1.22 = {
+		death = "1041.1.22"
+	}
+}
+40700 = {
+name = "Salavaza"
+	religion = "southern_calormen_cults"
+	culture = "calormen"
+	dynasty = 42
+	intrigue = 7
+	#father = 40350
+	#mother = 40300
+	981.3.8 = {
+		birth = "981.3.8"
+	}
+	1057.7.6 = {
+		death = "1057.7.6"
+	}
+}
+40750 = {
+name = "Kalhonr"
+	religion = "southern_calormen_cults"
+	culture = "calormen"
+	dynasty = 43
+	#father = 40350
+	#mother = 40300
+	976.9.1 = {
+		birth = "976.9.1"
+	}
+	1038.9.18 = {
+		death = "1038.9.18"
+	}
+}
+40800 = {
+name = "Aradash"
+	religion = "tash"
+	culture = "calormen"
+	dynasty = 44
+	#father = 40350
+	#mother = 40300
+	975.2.14 = {
+		birth = "975.2.14"
+	}
+	1059.10.21 = {
+		death = "1059.10.21"
+	}
+}
+40801 = {
+name = "Araulas"
+	religion = "tash"
+	culture = "calormen"
+	dynasty = 44
+	father = 40800
+	#mother = 40300
+	997.5.25 = {
+		birth = "997.5.25"
+	}
+	1064.2.15 = {
+		death = "1064.2.15"
+	}
+}
+40850 = {
+name = "Eusais"
+	religion = "tash"
+	culture = "calormen"
+	dynasty = 45
+	#father = 40800
+	#mother = 40300
+	969.9.14 = {
+		birth = "969.9.14"
+	}
+	1031.6.21 = {
+		death = "1031.6.21"
+	}
+}
+40900 = {
+name = "Zalin"
+	religion = "tash"
+	culture = "calormen"
+	dynasty = 46
+	#father = 40800
+	#mother = 40300
+	wealth = 1500
+	971.10.28 = {
+		birth = "971.10.28"
+	}
+	1043.5.17 = {
+		death = "1043.5.17"
+	}
+}
+41000 = {
+name = "Valinuid"
+	religion = "tash"
+	culture = "calormen"
+	dynasty = 47
+	#father = 40800
+	#mother = 40300
+	wealth = 200
+	969.12.23 = {
+		birth = "969.12.23"
+	}
+	1041.3.30 = {
+		death = "1041.3.30"
+	}
+}
